@@ -11,7 +11,7 @@ export default function TaskList({ loading, tasks, onPinTask, onArchiveTask }) {
   const LoadingRow = (
     <div className="loading-item">
       <span className="glow-checkbox" />
-      <span className="glow-text">
+      <span className="glow-texts">
         <span>Loading</span> <span>cool</span> <span>state</span>
       </span>
     </div>
